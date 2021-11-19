@@ -1,13 +1,18 @@
-# Overview of the analysis: 
+# Surfs Up
+--- 
+
+## Overview of the analysis: 
 ---
-Using data from a sqlite database that contains temprature for a date from serveral reporting 
-station within Hawaii.  The data is used to perform statictical analysis for a give month to decide
-if the weather would impact opening of an ice cream and surf shop on the island of oahu. 
----
+Using data from a sqlite database that contains tempratures for a given date from serveral reporting 
+station within Hawaii.  The data is used to perform statictical analysis for a given month 
+(June / December) to decide if the weather would impact opening of an ice cream and surf shop on the 
+island of Oahu. 
+
 ## Results: 
 ---
-Provide a bulleted list with three major points from the two analysis deliverables. Use images as 
-support where needed.
+### * There is little variation between June and December average tempratures:
+		 - June Average: 74
+		 - December Average: 71
 
 ![June Statistical Weather Data](june_stats.png)
 

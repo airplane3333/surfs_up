@@ -8,7 +8,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
 #This connect python to sqlite db
-engine = create_engine('sqlite:///hawaii.sqlite')
+engine = create_engine('sqlite:///hawaii.sqlite?check_same_thread=False')
 #This reflects the data 
 Base = automap_base()
 Base.prepare(engine, reflect=True)
@@ -66,3 +66,6 @@ def stats(start=None, end=None):
     results = session.query(*sel).filter(Measurement.date >= start).filter(Measurement.date <= end).all()
     temps = list(np.ravel(results))
     return jsonify(temps)
+
+if __name__ == "__main__": 
+    app.run()
