@@ -15,9 +15,11 @@ island of Oahu.
 		 - December Average: 71
 ---
 June Statistical Weather Data
+
 ![June Statistical Weather Data](june_stats.png)
 
 December Statistical Weather Data
+
 ![December Statistical Weather Data](dec_stats.png)
 
 ## Summary: 
