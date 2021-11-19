@@ -13,6 +13,10 @@ island of Oahu.
 #### * There is little variation between June and December average tempratures:
 		 - June Average: 74
 		 - December Average: 71
+
+#### * The max tempratures recorded in each mone are statictically simalar
+		 - June Max: 85
+		 - December Max: 83
 ---
 June Statistical Weather Data
 
